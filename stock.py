@@ -4,7 +4,7 @@ Created on Mon May 11 21:56:35 2020
 """
 import requests
 
-tse_ids = [']
+tse_ids = ['']
 
 otc_ids = [''] 
 

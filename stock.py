@@ -60,7 +60,6 @@ def tonyStock(catg, stock_id):
         message = code + ' ' + name.replace('發行量加權股價指數','加權股價指數') + emoji + '\n' + '現價： ' + str(price) + '\n' + '漲跌： ' + str(round(rate, 1)) + '%' + '\n' + '最高： ' + str(round(float(high), 2)) + '\n' + '最低： ' + str(round(float(low), 2)) + '\n' + date + '  ' + time
         return message
     except:
-        message = 'Error happend' + '\n\n' 
+        message = '哎呀！ ' + code + ' 發生錯誤😱'
         return message
-   
-print(tonyStock('otc', '3105'))
+  

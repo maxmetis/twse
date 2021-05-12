@@ -52,7 +52,7 @@ def tonyStock(catg, stock_id):
             elif change < 0:
                 emoji = ' 😿'
             else:
-                emoji = ' ⚠️'
+                emoji = ' 💢'
         else:
             change = '-'
             emoji = ''
